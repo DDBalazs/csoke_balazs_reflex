@@ -1,0 +1,53 @@
+body{
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+.mainbody{
+    border: 2px solid black;
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    margin-top: 15%;
+
+}
+.fel{
+    padding-top: 15px;
+    padding-bottom: 7px;
+    margin: auto;
+}
+.row{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 7px;
+}
+.timer{
+    margin: auto;
+    border: 2px solid black;
+    width: 500px;
+    height: 40px;
+}
+h1{
+    font-size: xx-large;
+    text-align: center;
+}
+.irany{
+    height: 70px;
+    width: 80px;
+    border-radius: 5px;
+}
+.ujjatek{
+    background-color: rgb(7, 94, 29);
+    width: auto;
+    padding: 7px;
+    border-radius: 10px;
+    border-color: black;
+    color: white;
+}
+footer{
+    text-align: end;
+}
+.ujjatek:hover{
+    color: black;
+    background-color: white;
+}

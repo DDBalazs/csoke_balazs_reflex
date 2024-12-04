@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Reflexjáték</title>
+</head>
+<body>
+    <header>
+        <nav>
+
+        </nav>
+    </header>
+    <main>
+        <div class="mainbody">
+            <h1>Melyik színes?</h1>
+            <h3>Reflexjáték</h3>
+            <div class="timer">
+                <p id="pontszam"></p>
+                <p id="display">10 mp</p>
+            </div>
+            <div class="fel">
+                <button class="irany" type="button" id="fel" onclick="fel()">&#11014;</button>
+            </div>
+            <div class="row">
+                <button class="irany" type="button" id="bal" onclick="bal()">&#11013;</button>
+                <button class="irany" type="button" id="le" onclick="le()">&#11015;</button>
+                <button class="irany" type="button" id="jobb" onclick="jobb()">&#11106;</button>
+            </div>
+            <button class="ujjatek" id="ujjatek" type="button" onclick="time_start()">Új játék</button>
+        </div>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
